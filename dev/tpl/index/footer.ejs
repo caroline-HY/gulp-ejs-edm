@@ -1,0 +1,26 @@
+<table style="text-align: center;width:100%;margin-top:70px;" align="center" cellpadding="0" cellspacing="0">
+  <% if(footer.brand.btns.length > 0){ %>
+    <tr>
+      <% footer.brand.btns.forEach(function(btns){ %>
+      <td><a href="<%= btns.btn.btnLinkUrl %>"><img src="<%= btns.btn.btnImgUrl %>" alt=""></a></td>
+      <% }) %>
+    </tr>
+  <% } %>
+    <tr height="100"></tr>
+    <tr >
+      <td colspan="3"><a href="<%= footer.brand.logo.logoLinkUrl %>"><img src="<%= footer.brand.logo.logoImgUrl %>" alt=""></a></td>
+    </tr>
+    <tr height="20"></tr>
+    <tr>
+      <td colspan="3"><img src="<%= footer.brand.introText %>" alt=""></td>
+    </tr>
+    <tr height="60"></tr>
+    <tr>
+      <td colspan="3"><a style="color:#82858a;font-size:25px;font-family:'微软雅黑','sans-serif';" href="<%= footer.brand.manageEmail.url %>"><%= footer.brand.manageEmail.text %></a></td>
+    </tr>
+    <tr height="40"></tr>
+    <tr>
+      <td colspan="3" style="color:#7c8185;font-size:25px;font-family:'微软雅黑','sans-serif';"><%= footer.brand.brandLabel %></td>
+    </tr>
+    <tr height="60"></tr>
+  </table>

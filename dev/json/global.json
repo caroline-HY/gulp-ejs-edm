@@ -1,0 +1,89 @@
+{
+	"header": {
+		"borwserUrl": "http://www.baidu.com",
+		"logo": {
+			"imgUrl": "@resUrl/images/header_in.png",
+			"linkUrl": "http://www.baidu.com"
+		},
+		"title": "This week at InVision",
+		"time": "MAR.13-MAR.17,2017"
+	},
+	"edmTpl": {
+		"bannerUrl": "@resUrl/images/banner_01.png",
+		"themes": ["InVision women reflect on tech career", "challenges and triumphs"],
+		"contents": ["In celebration of International Women's Day and Women's ",
+			"History Month,amazing women at InVision shared their career ",
+			"challenges and triumphs"
+		],
+		"btnUrl": {
+			"imgUrl": "@resUrl/images/btn_01.png",
+			"linkUrl": "http://www.baidu.com"
+		}
+	},
+	"footer": {
+		"intro": {
+			"title": "Our favourite design links this week",
+			"contents": [{
+				"contentTexts": [{
+					"text": "Everlane in San Francisco wants you as their new "
+				}, {
+					"text": "igital Product Designer-via Authentic Jobs"
+				}]
+			}, {
+				"contentTexts": [{
+					"text": "Find out what 60+ experts think about the ROI of UX"
+				}, {
+					"text": "design in this comprehensive report by The UX"
+				}, {
+					"text": "School"
+				}]
+			}, {
+				"contentTexts": [{
+					"text": "Forget welding.The hottest new vocational schools"
+				}, {
+					"text": "do design"
+				}]
+			}, {
+				"contentTexts": [{
+					"text": "6 lessons you learn in the first 6 months designing for"
+				}, {
+					"text": "IBM"
+				}]
+			}, {
+				"contentTexts": [{
+					"text": "The 18 best tools for online collaboration"
+				}]
+			}],
+			"lineUrl": "@resUrl/images/footer_line.png"
+		},
+		"brand": {
+			"btns": [{
+				"btn": {
+					"btnImgUrl": "@resUrl/images/footer_btn_01.png",
+					"btnLinkUrl": "http:www.baidu.com"
+				}
+			}, {
+				"btn": {
+					"btnImgUrl": "@resUrl/images/footer_btn_02.png",
+					"btnLinkUrl": "http:www.baidu.com"
+				}
+			}, {
+				"btn": {
+					"btnImgUrl": "@resUrl/images/footer_btn_03.png",
+					"btnLinkUrl": "http:www.baidu.com"
+				}
+			}],
+			"logo": {
+				"logoImgUrl": "@resUrl/images/header_in.png",
+				"logoLinkUrl": "http://www.baidu.com"
+			},
+			"introText": "@resUrl/images/footer_text_intro.png",
+			"manageEmail": {
+				"text": "Manage your email preferences",
+				"url": "http://www.baidu.com"
+			},
+			"brandLabel": "InVision App,41 Madison Ave,New York,NY"
+		}
+
+	}
+}
